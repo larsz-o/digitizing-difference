@@ -7,11 +7,16 @@ class Header extends Component {
         <div className="App">
         <header className="App-header">
             <h1>Digitizing Difference</h1>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/#/404">Nothing Here</a>
-            </nav>
         </header>
+        <div>
+            {/* TODO: for mobile, display a drop down menu instead */}
+            <nav className="nav-bar">
+                <a href="/">Home</a>
+                <a href="/#/stories">Data Stories</a>
+                <a href="/#/praxis">Critical Trans Data Praxis</a>
+                <a href="/#/resources">Resources</a>
+            </nav>
+            </div>
       </div>
        )
     }

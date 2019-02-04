@@ -11,4 +11,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.center{
+  text-align: center;
+}
+.jumbo {
+  font-size: 2em; 
+}
+.nav-bar {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly;
+  text-decoration: none; 
+  background-color: #282c34;
+  font-weight: bold;
+  min-height: 5vh; 
+}
+.quiz-div {
+  margin-left: 25vw; 
+  margin-right: 25vw; 
+  border: 2px solid black; 
+  padding: 2vw; 
+}
